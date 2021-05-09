@@ -1,0 +1,254 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Assessment</title>
+
+	<!-- Import bootstrap cdn -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+	integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+		crossorigin="anonymous" />
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- CSS stylesheet -->
+		<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="index.css">
+	<!-- <style type="text/css">
+		
+		body {
+			height: 100%;
+		}
+
+		#green {
+			height: 100%;
+			background: #5CDB95;
+			text-align: center;
+			color: black;
+			padding: 15px;
+		}
+		ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  height: 600px;
+  
+}
+ul li{
+  list-style: none;
+  text-align: left;
+  disp lay: block;
+
+}
+ul li a{
+  text-decoration: none;
+  padding: 0 50px;
+  display: block;
+}
+ul li a .icon{
+  width: 40px; 
+  height: 40px; 
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto 10px;
+  
+}
+ul li a .icon .fa{
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+  font-size: 34px;
+  transition: 0.5s; /* adding the transition to make it more attractive */
+  color: #000;
+}
+ul li a:hover .icon .fa{
+  transform: translateY(-100%); /* translate y to add the hover effect */
+}
+ul li a .name{
+  position: relative;
+  height: 20px; 
+  wid th: 150%;
+  d  isplay: block;
+   overflow: hidden;/*make ul li a .name overflow is hidden*/
+} 
+ul li a .nam  e span{
+  display:  block;
+  positio  n: relative;
+  color:  #000;
+  font- size: 18px; /* changing font size */
+  lin  e-height: 20px; 
+  tr ansition: 0.5s; /* adding the transition to make it more attractive */
+    
+} 
+ul li a  .name span:before{
+  con  tent: attr(data-text);
+  po sition: absolute;
+  t op: -100%;
+   width: 100%;  
+} 
+.navbar{
+	height: 50px;
+	background: #05386B;
+}
+.rounded{ 
+	margin-left:90px;
+	width: 800px;
+}
+.d1{
+	border: 1px solid black;
+	width: 200px;
+	height: 150px;
+	margin-left:190px;
+}
+.d1{
+	padding: 60px;
+	text-align: center;
+
+}
+h6{
+	
+	text-align: center;
+}
+
+	</style> -->
+</head>
+
+<body>
+	<!-- h-100 takes the full height of the body-->
+	<div class="container-fluid h-100">
+
+		<!-- h-100 takes the full height
+				of the container-->
+		<div class="row h-100">
+			<div class="col-2" id="green">
+
+				 <ul>
+            <!--starting ul tag to create unordered lists.-->
+            <li>
+                <!--The HTML li element is used to represent an item in a list. ... In menus and unordered lists-->
+                <!--the a tag defines a hyperlink, which is used to link from one page to another-->
+                <a href="#">
+                    <!-- this anchor text for link your home to another page -->
+                    <div class="icon">
+                        <i class="fa fa-home" aria-hidden="true"></i><!-- this is home icon link get form fornt-awesome icon for home button -->	
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                    </div>
+                    <div class="name"><span data-text="Home">Home</span></div>
+                    <!-- we are create first menu item name home -->
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <!-- this anchor text for link your About page to another page -->
+                    <div class="icon">
+                        <i class="fa fa-file" aria-hidden="true"></i><!-- this is file icon link get form fornt-awesome icon for about -->	
+                        <i class="fa fa-file" aria-hidden="true"></i>	
+                    </div>
+                    <div class="name"><span data-text="About">About</span></div>
+                    <!-- we are create second menu item name About -->
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <!-- this anchor text for link your service page to another page -->
+                    <div class="icon">
+                        <i class="fa fa-cogs" aria-hidden="true"></i><!-- this is cogs icon link get form fornt-awesome iocn for service menu -->	
+                        <i class="fa fa-cogs" aria-hidden="true"></i>	
+                    </div>
+                    <div class="name"><span data-text="Services">Services</span></div>
+                    <!--- we are create third menu item name services -->
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <!-- this anchor text for link your portfolio page to another page -->
+                    <div class="icon">
+                        <i class="fa fa-picture-o" aria-hidden="true"></i><!-- this is picture icon link get form fornt-awesome icon for portfolio --> 	
+                        <i class="fa fa-picture-o" aria-hidden="true"></i>	
+                    </div>
+                    <div class="name" ><span data-text="Portfolio">Portfolio</span></div>
+                    <!-- we are create fourth menu item name portfolio -->
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <!-- this anchor text for link your team page to another page -->
+                    <div class="icon">
+                        <i class="fa fa-users" aria-hidden="true"></i><!-- this is picture icon link get form fornt-awesome icon for portfolio --> 	
+                        <i class="fa fa-users" aria-hidden="true"></i>			
+                    </div>
+                    <div class="name"><span data-text="Team">Team</span></div>
+                    <!-- we create first menu item name home -->
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <!-- this anchor text for link your home to another page -->
+                    <div class="icon">
+                        <i class="fa fa-envelope" aria-hidden="true"></i><!-- this is picture icon link get form fornt-awesome icon for portfolio --> 		
+                        <i class="fa fa-envelope" aria-hidden="true"></i>	
+                    </div>
+                    <div class="name"><span data-text="Contact">Contact</span></div>
+                    <!-- we create first menu item name home -->
+                </a>
+            </li>
+            
+            
+        </ul>
+       
+			</div>
+			<div class="col-10" style="padding: 0;">
+
+				<!-- Top navbar -->
+				<nav class="navbar navbar-expand-lg
+								navbar-light ">
+					
+					<!-- Hamburger button that toggles the navbar-->
+					<button class="navbar-toggler"
+						type="button" data-toggle="collapse"
+						data-target="#navbarNavAltMarkup"
+						aria-controls="navbarNavAltMarkup"
+						aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<!-- navbar links -->
+					<div class="collapse navbar-collapse"
+						id="navbarNavAltMarkup">
+						<div class="navbar-nav">
+						
+						</div>
+					</div>
+				</nav>
+
+				<!-- Contains the main content of the webpage-->
+				<p style="padding: 15px; text-align: justify;">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+  					<path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+				</svg>
+					<i class="bi bi-caret-left-fill">Videos</i>
+					
+					
+					
+					<br>
+
+					<div class="input-group rounded">
+  						<input type="search" class=" rounded" placeholder="Insert URL here" aria-label="Search"/>
+  					</div> <br>  <h6><b>or</b> </h6>
+  					 <br> 
+  					 <div class="d1"><b>Upload </b> </div>
+				
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
