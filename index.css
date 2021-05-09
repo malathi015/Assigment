@@ -1,0 +1,95 @@
+
+		body {
+			height: 100%;
+		}
+
+		#green {
+			height: 100%;
+			background: #5CDB95;
+			text-align: center;
+			color: black;
+			padding: 15px;
+		}
+		ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  height: 600px;
+  
+}
+ul li{
+  list-style: none;
+  text-align: left;
+  display: block;
+
+}
+ul li a{
+  text-decoration: none;
+  padding: 0 50px;
+  display: block;
+}
+ul li a .icon{
+  width: 40px; 
+  height: 40px; 
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto 10px;
+  
+}
+ul li a .icon .fa{
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+  font-size: 34px;
+  transition: 0.5s; /* adding the transition to make it more attractive */
+  color: #000;
+}
+ul li a:hover .icon .fa{
+  transform: translateY(-100%); /* translate y to add the hover effect */
+}
+ul li a .name{
+  position: relative;
+  height: 20px; 
+  width: 150%;
+  display: block;
+  overflow: hidden;/*make ul li a .name overflow is hidden*/
+}
+ul li a .name span{
+  display: block;
+  position: relative;
+  color: #000;
+  font-size: 18px; /* changing font size */
+  line-height: 20px;
+  transition: 0.5s; /* adding the transition to make it more attractive */
+  
+}
+ul li a .name span:before{
+  content: attr(data-text);
+  position: absolute;
+  top: -100%;
+  width: 100%;  
+}
+.navbar{
+	height: 50px;
+	background: #05386B;
+}
+.rounded{
+	margin-left:90px;
+	width: 800px;
+}
+.d1{
+	border: 1px solid black;
+	width: 200px;
+	height: 150px;
+	margin-left:190px;
+}
+.d1{
+	padding: 60px;
+	text-align: center;
+
+}
+h6{
+	
+	text-align: center;
+}
